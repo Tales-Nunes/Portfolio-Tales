@@ -31,22 +31,22 @@
     <div class="main">
         <header class="header">
 
-            <img src="/assets/img/Foto-Tales.jpg" alt="Foto de Tales Nunes" class="photo">
+            <img src="/assets/img/Foto-Tales.jpg" alt="Foto de Perfil" class="photo" id="profile.photo">
 
-            <h1 class="title">Olá! <br> Me chamo Tales!</h1>
+            <h1 class="title">Olá! <br> Me chamo <span id="profile.name" >Carregando...</span></h1>
 
             <div class="information">
-                <p class="job">Full-Stack Developer</p>
-                <p class="location">São Paulo - BR</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id=profile.location>Carregando...</p>
                 <p class="phone">
-                    <a href="tel:+55 (11) 99698-3359">+55 (11)99698-3359</a></p>
+                    <a href="tel:profile.phone" id="profile.phone">Carregando...</a></p>
                 <p class="email">
-                    <a href="mailto:talesnunes.siqueira@gmail.com">talesnunes.siqueira@gmail.com</a></p>
+                    <a href="mailto:profile.email" id="profile.email">Carregando...</a></p>
             </div>
     
         </header>
 
-        <section class="acordeon open">
+        <section class="acordeon">
 
             <button class="trigger" type="button">Habilidades</button>
 
@@ -160,6 +160,8 @@
     </div>    
 
     <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

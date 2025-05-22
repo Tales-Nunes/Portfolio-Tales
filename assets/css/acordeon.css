@@ -9,8 +9,9 @@
 }
 .acordeon.open,
 .acordeon:hover{
-    background-color: #8b6600;
+    background-color: #d39e0e;
     border-color: #815f00;
+    background-blend-mode: color-burn;
 }
 
 
