@@ -59,7 +59,12 @@
     {
       "name": "Pokedex (Javascript)",
       "url": "https://github.com/Tales-Nunes/Pokedex"
+    },
+    {
+      "name": "Backend de um E-commerce (Java, Springboot)",
+      "url": "https://github.com/Tales-Nunes/workshop-springboot3-jpa"
     }
+
   ],
   "professionalExperience": [
     {
