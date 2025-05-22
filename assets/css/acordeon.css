@@ -8,9 +8,9 @@
     transition: .2s;
 }
 .acordeon.open,
-.acordeon:hover{
-    background-color: #d39e0e;
-    border-color: #815f00;
+.acordeon:hover {
+    background-color: rgba(255, 196, 0, 0.55); /* 0.8 = 80% opaco */
+    border-color: #d19900;
     background-blend-mode: color-burn;
 }
 
