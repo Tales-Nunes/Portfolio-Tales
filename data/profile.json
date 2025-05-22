@@ -54,13 +54,11 @@
   "projetos": [
     {
       "name": "Gestão de clientes e seus respectivos contatos (Java, React)",
-      "url": "https://github.com/Tales-Nunes/Muralis-Desafio",
-      "github": true
+      "url": "https://github.com/Tales-Nunes/Muralis-Desafio"
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/Tales-Nunes/Pokedex",
-      "github": true
+      "url": "https://github.com/Tales-Nunes/Pokedex"
     }
   ],
   "professionalExperience": [
