@@ -5,7 +5,9 @@
   "location": "São Paulo - BR",
   "phone": "+55(11) 99698-3359",
   "email": "talesnunes.siqueira@gmail.com",
-  "aboutMe": "Sou uma pessoa movida por desafios e pela vontade constante de aprender. Atuo como desenvolvedor full stack, unindo lógica e criatividade para construir soluções que realmente façam sentido para quem vai usá-las. Gosto de entender o problema antes de escrever uma linha de código e acredito que o trabalho em equipe, a comunicação e a curiosidade são tão importantes quanto a parte técnica. Estou em fase final da graduação em Análise e Desenvolvimento de Sistemas e sigo sempre buscando crescer como profissional e como pessoa.", 
+  "aboutMe": [
+    "Sou uma pessoa movida por desafios e pela vontade constante de aprender. Atuo como desenvolvedor full stack, unindo lógica e criatividade para construir soluções que realmente façam sentido para quem vai usá-las. Gosto de entender o problema antes de escrever uma linha de código e acredito que o trabalho em equipe, a comunicação e a curiosidade são tão importantes quanto a parte técnica. Estou em fase final da graduação em Análise e Desenvolvimento de Sistemas e sigo sempre buscando crescer como profissional e como pessoa."
+  ],
   "skills": {
     "hardSkills": [
       
