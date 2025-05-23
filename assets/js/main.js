@@ -70,6 +70,7 @@ function updateProfessionalExperience(profileData){
 (async () => {
 
     const profileData = await fecthProfileData()
+    updateAboutMe(profileData)
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
