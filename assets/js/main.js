@@ -24,6 +24,11 @@ function updateProfileInfo(profileData){
 
 }
 
+function updateAboutMe(profileData){
+        const aboutMe = document.getElementById('profile.aboutMe')
+        aboutMe.innerHTML = profileData.aboutMe.map(aboutMe => `<li>${aboutMe}</li>`).join('')
+    }
+
 function updateSoftSkills(profileData){
     const softSkills = document.getElementById('profile.skills.softSkills')
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
@@ -59,6 +64,8 @@ function updateProfessionalExperience(profileData){
         </li>`
     }).join()
 }
+
+
 
 (async () => {
 
