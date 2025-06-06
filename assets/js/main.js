@@ -14,6 +14,9 @@ function updateProfileInfo(profileData){
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
 
+    const university = document.getElementById('profile.university')
+    university.innerText = profileData.university
+
     const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
     phone.href = `tel:${profileData.phone}`
@@ -26,7 +29,7 @@ function updateProfileInfo(profileData){
 
 function updateAboutMe(profileData){
         const aboutMe = document.getElementById('profile.aboutMe')
-        aboutMe.innerHTML = profileData.aboutMe.map(aboutMe => `<li>${aboutMe}</li>`).join('')
+        aboutMe.innerHTML = profileData.aboutMe.map(aboutMe => `<p>${aboutMe}</p>`).join('')
     }
 
 function updateSoftSkills(profileData){
