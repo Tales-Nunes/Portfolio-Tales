@@ -68,6 +68,16 @@ function updateProfessionalExperience(profileData){
     }).join()
 }
 
+function updateCertificados(profileData){
+    const certificados = document.getElementById('profile.certificados')
+    certificados.innerHTML = profileData.certificados.map(certificados => {
+        return `
+            <li> 
+                 <span class="title medal"><a href="${certificados.url}" target="_blank">${certificados.name}</a></span>
+            </li>`
+    }).join('')
+}
+
 
 
 (async () => {
@@ -80,4 +90,5 @@ function updateProfessionalExperience(profileData){
     updateLanguages(profileData)
     updateProjetos(profileData) 
     updateProfessionalExperience(profileData)
+    updateCertificados(profileData)
 })()

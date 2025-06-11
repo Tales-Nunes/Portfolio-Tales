@@ -76,5 +76,31 @@
       "period": "07/2025 - Até o momento.",
       "description": "Estagiário."
     }
+  ],
+   "certificados": [
+    {
+      "name": "Java COMPLETO - POO + Projetos",
+      "url": "https://drive.google.com/file/d/1k6eMzwfz9951MffKNnKX6xXVoiWoAuIm/view"
+    },
+    {
+      "name": "Formação JavaScript Developer",
+      "url": "https://drive.google.com/file/d/1AaerFUxlWrUWgawgSTlR3GaOijDK2Khv/view?usp=drive_link "
+    },
+    {
+      "name": "SQL para Análise de Dados",
+      "url": "https://drive.google.com/file/d/1YY4HIDl3seoRk0-mb64MpRss-EUc4Vzd/view?usp=drive_link"
+    },
+    {
+      "name": "Python - Basic Module",
+      "url": "https://drive.google.com/file/d/1g8ydg8juBKfnuvt6iJNpWvAdQStfC61x/view?usp=drive_link"
+    },
+    {
+      "name": "Green Belt Six Sigma",
+      "url": "https://drive.google.com/file/d/1xzg0n1rs6dkeuu3UZyT3zGgACkh4o-Mh/view?usp=drive_link"
+    },
+    {
+      "name": "Introduction to Test Driven Development (TDD)",
+      "url": "https://drive.google.com/file/d/1R9XhFiFQx-ortH61U-sT9SjTwr9Psx8c/view?usp=drive_link"
+    }  
   ]
 }
