@@ -56,6 +56,13 @@
     background-image: url('../img/icons/email.svg');
 }
 
+.information .university::before{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: -.25rem;
+    background-image: url('../img/icons/university.svg');
+}
+
 @media only screen and (min-width: 768px){
 
     .header{

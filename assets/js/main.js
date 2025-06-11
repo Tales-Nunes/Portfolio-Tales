@@ -14,9 +14,6 @@ function updateProfileInfo(profileData){
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
 
-    const university = document.getElementById('profile.university')
-    university.innerText = profileData.university
-
     const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
     phone.href = `tel:${profileData.phone}`
@@ -24,6 +21,9 @@ function updateProfileInfo(profileData){
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
+    
+    const university = document.getElementById('profile.university')
+    university.innerText = profileData.university
 
 }
 
