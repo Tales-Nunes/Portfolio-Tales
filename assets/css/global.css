@@ -6,7 +6,7 @@
 body{
     background-color: black;
     color: #fff;
-    padding: 3rem 0rem;
+    padding: 0rem 0rem;
 
 }
 
@@ -62,4 +62,9 @@ a:hover {
         max-width: 1024px;
         margin: 0 auto;
     }
+
+    body{
+        padding: 3rem 0rem;
+    }
 }
+
